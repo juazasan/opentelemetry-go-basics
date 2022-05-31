@@ -1,0 +1,9 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/juazasan/code/opentelemetry-go-basics'
+go build pkg/diagnostics/tracing.go
+go build pkg/diagnostics/httpTracing.go
+go build pkg/client/client.go
+go build pkg/server/server.go
+go build pkg/runtime/runtime.go
+make: Leaving directory '/home/juazasan/code/opentelemetry-go-basics'
+ 
